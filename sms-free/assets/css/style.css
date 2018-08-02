@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'playregular';
+    src: url('../fonts/play-regular-webfont.eot');
+    src: url('../fonts/play-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/play-regular-webfont.woff2') format('woff2'),
+         url('../fonts/play-regular-webfont.woff') format('woff'),
+         url('../fonts/play-regular-webfont.ttf') format('truetype'),
+         url('../fonts/play-regular-webfont.svg#playregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: 'playregular';
+	font-size: 16px;
+	color: #333;
+	background: #353E4D;
+}
+ul,ol{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+.container-fluid{
+	background:#ffffff;
+}
+header{
+	padding:8px 0;
+}
+img{max-width: 100%;}
+.logo{
+	padding: 0 0 10px 0;
+}
+.logo img{
+	height:65px;
+}
+.login-top-padd{
+	padding-top: 27px;
+}
+.login-menu > li > a{
+	color: #ffffff;
+	font-size:16px;
+}
+.login-menu > li > a:hover{
+	text-decoration: none;
+	color: #EA8513;
+}
+.welcome-block h1 span, h2 span{
+	color: #EA8513;
+	font-weight: bold;
+}
+.menu-block{
+	background: #EC8F10;
+}
+.divider{
+	border-top:1px dotted #dfdfdf;
+	border-bottom:1px dotted #dfdfdf;
+	height:8px;
+	margin:25px 0;
+}
+.list li{
+	position: relative;
+	border-bottom: 1px dashed #dfdfdf;
+	padding:8px 0 8px 25px;
+}
+.list li:before{
+	position: absolute;
+	left:0;
+	content: "\2709";
+	font-family: 'Glyphicons Halflings';
+}
+.list li a{
+	color: inherit;
+	display: block;
+}
+.list li:hover a,.list li:hover,
+.list li:hover:before{
+	color: #EA8513;
+	text-decoration: none;
+}
+.list li  span{
+	width:50%;
+	display:inline-block;
+}
+.left-contact li  span:first-child,
+.left-contact li  span:last-child{
+	width:100%;
+}
+.sms-category-block .col-lg-4{
+	margin:0 0 25px 0;
+}
+footer{
+	padding:15px 0;
+}
+.copyright-block{
+	color: #fff;
+	text-align: center;
+}
+.form-control{
+	height: 40px;
+}
+.input-group{
+	margin-bottom: 10px;
+}
+.nmessage_form .input-group,
+.show-block .input-group{
+	display:block;
+}
+#exampleInputMessage,
+.show-block #exampleInputMessage{
+	width:100%;
+	float:none;
+	height:150px;
+	resize:vertical;
+}
+select{
+    background: none repeat scroll 0 0 #f0f0e9;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    padding: 5px;
+    resize: none;
+    width: 100%;
+}
+.message-block{
+	border:1px solid #ccc;
+	padding:8px;
+	min-height:250px;
+	overflow:x-hidden;
+	margin-top:10px;
+}
+.message-block span{
+	display:block;
+	cursor:pointer;
+}
